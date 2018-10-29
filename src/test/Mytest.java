@@ -45,8 +45,9 @@ import com.giaybac.traprange.PDFTableExtractor;
 import com.giaybac.traprange.entity.Table;
 import com.google.common.base.FinalizableSoftReference;
 import com.google.common.util.concurrent.FutureCallback;
+import com.google.common.util.concurrent.CycleDetectingLockFactory.WithExplicitOrdering;
 
-public class Main extends PDFTextStripper
+public class Mytest extends PDFTextStripper
 {
     /**
      * Instantiate a new PDFTextStripper object.
@@ -59,7 +60,7 @@ public class Main extends PDFTextStripper
 	static List<Text> tmp = new ArrayList<Text>();
 	static List<Text> row = new ArrayList<Text>();
 	static int Now_page = 0;
-    public Main() throws IOException
+    public Mytest() throws IOException
     {
     }
     /**
@@ -80,10 +81,11 @@ public class Main extends PDFTextStripper
             	texts.clear();
             	document = PDDocument.load( file );
             	String res = "";
-            	for (int  i = 0 ; i < 11 ; i++)
+            	for (int  i = 10 ; i < 11 ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Main();
+            		row.clear();
+            		PDFTextStripper stripper = new Mytest();
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );
@@ -91,17 +93,32 @@ public class Main extends PDFTextStripper
             		stripper.writeText(document, dummy);  
             		if (tmp.isEmpty()) continue;
             		texts.add(tmp);
-            		double pre = tmp.get(0).Y , prex = tmp.get(0).X;
+            		double pre = tmp.get(0).Y;
             		for (Text now : tmp)	
             			{
             			 	if ( Math.abs(now.Y - pre) > 1.) 
             			 	{
+            			 		double avg = 0;
+            			 		int num = 0;
+            			 		double prex = row.get(0).X;
+            			 		double gap = 2333;
+            			 		for (int j = 1 ; j < row.size() ; j++)
+            			 		{
+            			 			Text  word = row.get(j);
+            			 			if (word.X - prex > gap)
+            			 			{
+            			 			num++;
+            			 			gap = word.X - prex;
+            			 			prex = word.X;
+            			 			}
+            			 		}
+            	
+            			 		row.clear();
             			 		pre = now.Y;
-            			 		prex = now.X;
-            			 		res +='\n';
+            			 		res += '\n';
             			 	}
-            				res += now.unicode;
-            			 	prex = now.X;
+            			 	row.add(now);
+            			 	pre = now.Y;
             			}
                 }
             	
