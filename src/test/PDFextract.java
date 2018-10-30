@@ -77,7 +77,7 @@ public class PDFextract extends PDFTextStripper
             	for (int  i = StartPage ; i < EndPage ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Main();
+            		PDFTextStripper stripper = new PDFTextStripper();
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );
@@ -121,22 +121,31 @@ public class PDFextract extends PDFTextStripper
             	if (EndPage == -1)
             		EndPage = document.getNumberOfPages();
             	
+            	String res = null;
+            	
             	for (int  i = StartPage ; i < EndPage ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Main();
+            		PDFTextStripper stripper = new PDFextract(filepath,desString);
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );
             		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
-            		stripper.writeText(document, dummy);                
+            		stripper.writeText(document, dummy);  
             		texts.add(tmp);
             		double pre = tmp.get(0).Y;
-            		String res = null;
-            		for (Text now : tmp) res += now.unicode;
-                	System.out.println( res );
+            		for (Text now : tmp)	
+            			{
+            			 	if ( Math.abs(now.Y - pre) > 1.) 
+            			 		res += '\n';
+            			 	res += now.unicode;
+            			 	pre = now.Y;
+            			}
 
                 }
+            	System.out.println(StartPage+ " " + EndPage);
+
+            	System.out.println(res);
             	document.close();
             	texts.clear();
             }
@@ -171,7 +180,7 @@ public class PDFextract extends PDFTextStripper
             	for (int  i = StartPage ; i < EndPage ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Main();
+            		PDFTextStripper stripper = new PDFTextStripper();
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );

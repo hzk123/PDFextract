@@ -47,7 +47,7 @@ import com.google.common.base.FinalizableSoftReference;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.CycleDetectingLockFactory.WithExplicitOrdering;
 
-public class Mytest extends PDFTextStripper
+public class gettext extends PDFTextStripper
 {
     /**
      * Instantiate a new PDFTextStripper object.
@@ -60,7 +60,7 @@ public class Mytest extends PDFTextStripper
 	static List<Text> tmp = new ArrayList<Text>();
 	static List<Text> row = new ArrayList<Text>();
 	static int Now_page = 0;
-    public Mytest() throws IOException
+    public gettext() throws IOException
     {
     }
     /**
@@ -84,7 +84,7 @@ public class Mytest extends PDFTextStripper
             	for (int  i = 0 ; i < document.getNumberOfPages() ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Mytest();
+            		PDFTextStripper stripper = new gettext();
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );

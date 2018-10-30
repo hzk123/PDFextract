@@ -21,7 +21,9 @@ import java.awt.image.RescaleOp;
 import java.awt.print.Pageable;
 import java.io.ByteArrayOutputStream;
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.io.Writer;
 import java.util.ArrayList;
@@ -47,7 +49,7 @@ import com.google.common.base.FinalizableSoftReference;
 import com.google.common.util.concurrent.FutureCallback;
 import com.google.common.util.concurrent.CycleDetectingLockFactory.WithExplicitOrdering;
 
-public class Mytest extends PDFTextStripper
+public class getConsole extends PDFTextStripper
 {
     /**
      * Instantiate a new PDFTextStripper object.
@@ -60,16 +62,16 @@ public class Mytest extends PDFTextStripper
 	static List<Text> tmp = new ArrayList<Text>();
 	static List<Text> row = new ArrayList<Text>();
 	static int Now_page = 0;
-    public Mytest() throws IOException
+    public getConsole() throws IOException
     {
     }
     /**
      * This will print the documents data.
-     *
-     * @param args The command line arguments.
-     *
      * @throws IOException If there is an error parsing the document.
      */
+    
+    static String PDFFilePath = "C:\\22.pdf";
+    static String OutputFilepath = "out";
     public static void main( String[] args ) throws IOException
     { 
         {
@@ -77,14 +79,14 @@ public class Mytest extends PDFTextStripper
             try
             {
                 BasicConfigurator.configure();
-            	File file = new File("C:\\22.pdf");
+            	File file = new File(PDFFilePath);
             	texts.clear();
             	document = PDDocument.load( file );
             	String res = "";
             	for (int  i = 0 ; i < document.getNumberOfPages() ; i++)
                 {
             		tmp.clear();
-            		PDFTextStripper stripper = new Mytest();
+            		PDFTextStripper stripper = new getConsole();
             		stripper.setSortByPosition( true );
             		stripper.setStartPage( i );
             		stripper.setEndPage( i );
@@ -101,8 +103,10 @@ public class Mytest extends PDFTextStripper
             			 	pre = now.Y;
             			}
                 }
-            	
+            	OutputStream os = new FileOutputStream(OutputFilepath);
             	System.out.println( res );
+            	byte[] bt = res.getBytes();
+            	os.write(bt);
             }
             finally
             {
@@ -139,8 +143,7 @@ public class Mytest extends PDFTextStripper
         }
     }
     
- 
-    
+
     public class TextPositionComparator implements Comparator<TextPosition>
     {
     	@Override
