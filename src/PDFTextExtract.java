@@ -32,7 +32,8 @@ import org.apache.pdfbox.text.TextPosition;
 
 public class PDFTextExtract extends PDFTextStripper {
 
-	private static ArrayList<Text> _tmp = new ArrayList<Text>();
+	//private static ArrayList<Text> _tmp = new ArrayList<Text>();
+	private  ArrayList<Text> _tmp;
 
 	public String PDFFilePath;
 	public String OutputFilepath;
@@ -41,13 +42,15 @@ public class PDFTextExtract extends PDFTextStripper {
 	 * Instantiate a new PDFTextStripper object.
 	 *
 	 * @throws IOException If there is an error loading the properties.
-	 */
-	public PDFTextExtract() throws IOException {
+	 */	
+	public PDFTextExtract(ArrayList<Text> _tmp) throws IOException {
+		 this._tmp = _tmp;
 	}
 
 	public PDFTextExtract(String PDffilepath, String OutputFilepath) throws IOException {
 		this.PDFFilePath = PDffilepath;
 		this.OutputFilepath = OutputFilepath;
+		 _tmp = new ArrayList<Text>();
 	}
 
 	/**
@@ -57,9 +60,8 @@ public class PDFTextExtract extends PDFTextStripper {
 	 */
 	public void process() throws IOException {
 		PDDocument document = null;
-		String res = null;
+		String res = "";
 		OutputStream os = null;
-
 		try {
 			// Target PDF file.
 			document = PDDocument.load(new File(this.PDFFilePath));
@@ -68,8 +70,7 @@ public class PDFTextExtract extends PDFTextStripper {
 			for (int i = 1; i <= document.getNumberOfPages(); i++) {
 				System.out.println("processing page " + i + "...");
 				_tmp.clear();
-				PDFTextExtract stripper = new PDFTextExtract();
-
+				PDFTextExtract stripper = new PDFTextExtract(_tmp);
 				// Tell PDFBox to sort the text positions.
 				stripper.setSortByPosition(true);
 
