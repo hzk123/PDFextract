@@ -100,7 +100,7 @@ limitation.
 Pipe:ASME or API standard
 Fitting:ASME or API standard
 Flange:ASME standard
-Valve:ASME, API and manufacturer°¶s standard
+Valve:ASME, API and manufacturer‚Äôs standard
 2.2Related Engineering Specifications
 -Project Basis of Design-LPP FacilitiesS-S000-5222-001
 -Project Basis of Design-NGLE FacilitiesS-F000-5223-001
@@ -169,7 +169,7 @@ For straight run portions of piping systems, pipes shall be applied.
 2.Elbowsand Bends 
 Change in direction of piping systems shall be made with elbows, bends(cold bend,high 
 frequency induction bendand/or miter bend).
-Long radius elbows shall generally be used for piping of NPS 2°® and over, except where design 
+Long radius elbows shall generally be used for piping of NPS 2‚Äù and over, except where design 
 requirements dictate the application of short radius elbows.
 In case the Miter Bends are used, they shall be designed and fabricated in accordance with ASME 
 B31.3.
@@ -192,7 +192,7 @@ Quantity of flanges shall be minimized in hydrogen service.
 6.Valves
 Valves shall be provided in accordance with P & ID for isolation of piping system, flow control, etc.
 Sizes and type of valvesshall be in accordance with P & IDand piping classes.
-°ßLocked open or close°® shall be in accordance with P & ID.
+‚ÄúLocked open or close‚Äù shall be in accordance with P & ID.
 7.Spectacle blinds, Blanks and Spacers
 Spectacle blinds, blanks and spacers shall be installed in accordance with P & ID and piping 
 classes.Selection of spectacle blinds, blanks and spacers shall be as shown below:
@@ -220,18 +220,18 @@ passing through this zone shall be suitably insulated or covered with barriers, 
 guards.For the applicable temperature for personal protection reference is made to the
 specification for hot insulation S-G000-5390-001 Para. 8.10.
 3.5Piping Sizes
-1.Nominal pipe size 1-1/4°®, 2-1/2°®, 3-1/2°®, 5°®, 7°® and 9°® shall not be used for metallic piping except in 
+1.Nominal pipe size 1-1/4‚Äù, 2-1/2‚Äù, 3-1/2‚Äù, 5‚Äù, 7‚Äù and 9‚Äù shall not be used for metallic piping except in 
 case the size is specified in P & ID or requirement by vendor.
 Page 7of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
 2.Minimum size of piping components shall be as follows:
-Steel piping components:1/2°® NPS
-Steel tubing:3/8°® NPS
+Steel piping components:1/2‚Äù NPS
+Steel tubing:3/8‚Äù NPS
 3.Where unusual sizes are required for connecting to equipment, the connecting piping shallrun in 
 the next larger size after connection has been made unless otherwise restricted by special 
 requirement.
-4.Piperack or piperack header piping sizes shall maintain minimum NPS 2°®except auxiliary piping, 
+4.Piperack or piperack header piping sizes shall maintain minimum NPS 2‚Äùexcept auxiliary piping, 
 such as steam tracers to avoid excess deflection. The maximum support spans are specified in 
 Para. 3.8(2).  In case the actual span exceeds these maximum limits, then the additional supports 
 shall be provided.
@@ -242,10 +242,10 @@ inspection, or where construction or process conditions require.
 straddle the plant north-south line for vertical piping. Exceptions may occur when connecting pipe 
 flanges to equipment nozzles. In this case, a detail of bolt holes straddling a certain centerline of 
 that flange shall be stated on the piping detail drawing or isometric.
-3.Socket welded joints shall be limited to size NPS 1-1/2°® or less.
+3.Socket welded joints shall be limited to size NPS 1-1/2‚Äù or less.
 4.All galvanized piping shall have threaded or flanged joints.
 5.Threaded joints may be used for all sizes of galvanized piping and for following services in size 
-NPS 2°® and smaller.
+NPS 2‚Äù and smaller.
 -Potable Water
 -Instrument Air
 -Process and utility lines where the maintenance is required such as steam trap connection, Y-
@@ -266,7 +266,7 @@ General Specification for PipingS-G000-5360-0080
 2.Minimum access requirements for valves shall be as shown in Appendix 7.2.
 3.In case of wrench operated valves, it shall be ensured that the adequate clearance shall be 
 provided for wrench operation.
-4.Valves NPS 16°® and larger shall be placed in the horizontal plane (horizontal piping) as practical as 
+4.Valves NPS 16‚Äù and larger shall be placed in the horizontal plane (horizontal piping) as practical as 
 possible.
 5.Motor operated valves shall be provided in accordance with P & I Diagram requirements.
 6.Valves above roads and in overhead pipe tracks shall be avoided.
@@ -276,7 +276,7 @@ horizontal (preferred) or downward.
 upwards (preferred), or with a maximum inclination of 45 deg. to the vertical. Drain valves in 
 cryogenic liquid service shall be installed likewise, i.e. the drain connection shall be provided with a 
 45 deg. elbow, so that the valve-spindle will be 45 deg. upwards.
-9.Chainwheel with chain (only for valves 3°® and over, with a maximum length chain of 2 m) or stem 
+9.Chainwheel with chain (only for valves 3‚Äù and over, with a maximum length chain of 2 m) or stem 
 extension, should be kept to anabsolute minimum.
 3.8Pipe Support
 1.The loads which shall work on pipe supports, shall be calculated based on the following criteria:
@@ -294,15 +294,15 @@ General Specification for PipingS-G000-5360-0080
 2.Guide lines for horizontal and vertical pipe support spans:
 CARBON STEEL AND HEAVY WALL STAINLESS STEEL
 The data below are applicable to:
-a)Carbon steel pipes, STD wall and heavier, with a maximum temperature of 350 ¢XC.
+a)Carbon steel pipes, STD wall and heavier, with a maximum temperature of 350 ¬∞C.
 b)Austenitic stainless steel pipes, schedule 40S and heavier, NPS < 14, with a maximum 
-temperature of 350 ¢XC.
-c)Duplex stainless steel pipes, schedule10S and heavier, with a maximum temperature of 280 ¢XC.
+temperature of 350 ¬∞C.
+c)Duplex stainless steel pipes, schedule10S and heavier, with a maximum temperature of 280 ¬∞C.
 Maximum Span [mm]
 Pipe SizeVapour serviceLiquid serviceGuide
 BareInsulatedBareInsulatedVerticalHorizontal
 NPS 15200(3800)4300(3300)5000(3450)4100(3200)37508000
-NPS 1 ?6500(4650)4800(3600)6200(4100)4600(3400)40008000
+NPS 1 ¬Ω6500(4650)4800(3600)6200(4100)4600(3400)40008000
 NPS 26800(5250)6300(4200)6500(4550)6100(4000)500012000
 NPS 37800(6400)7300(4600)7500(5450)6500(4200)600012000
 NPS 48500(7300)8200(6000)7800(6100)6800(5500)800018000
@@ -320,27 +320,27 @@ supported beam conditions.
 .
 3. Adequate supports shall be provided for the lines with elbows, bends, or concentrated load such as valves and other 
 pipe tie-ins. Other configurations shall be multiplied by a shape factor.
-4.  For all piping including piping larger than 12°®, in case a detail calculation is conducted and the result is satisfied, longer 
+4.  For all piping including piping larger than 12‚Äù, in case a detail calculation is conducted and the result is satisfied, longer 
 span can be applied.
 3.Supports to be provided to inlet or outlet piping of pumps, compressors and steam turbines shall 
-be °ßadjustable°® typein case associated piping requires centering adjustment.
-4.Supports receiving vertical loads from the high temperature piping may be °ßspring°® type, depending 
+be ‚Äúadjustable‚Äù typein case associated piping requires centering adjustment.
+4.Supports receiving vertical loads from the high temperature piping may be ‚Äúspring‚Äù type, depending 
 on the thermal calculation.
 5.Supports for piping which is subject to vibrations shall be designed to diminish resonance.
 Page 10of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
-6.Small bore connections (1?°® and smaller) without continuing piping, on size 3°® and larger piping 
+6.Small bore connections (1¬Ω‚Äù and smaller) without continuing piping, on size 3‚Äù and larger piping 
 subject to vibration, either induced by Process (FIV Flow induced Vibration) or by reciprocating 
-equipment, shall be reinforced with gussets provided in 2 directions. For piping size 2°® one gusset 
-is sufficient. For small bore connections (1?°® and smaller) on piping from susceptible vibrating 
+equipment, shall be reinforced with gussets provided in 2 directions. For piping size 2‚Äù one gusset 
+is sufficient. For small bore connections (1¬Ω‚Äù and smaller) on piping from susceptible vibrating 
 piping near  centrifugal machinery, pressure relief devices or rapid operated valves and two phase 
 flow piping, single gussets are sufficient. Same will apply for those connections, where the 
 possibility of mechanical damage is feasible. Gusseting is not required if one integrally reinforced 
 body valve is used in the connection and terminates at the valve or only continues with a pressure 
 gauge or tubing.
 7.Small bore piping is acceptable to be supported from adjacent larger pipe to prevent excess 
-deflection. Inthis phrase small bore shall be maximum linesize 4°®, larger pipe to be 2 sizes larger 
+deflection. Inthis phrase small bore shall be maximum linesize 4‚Äù, larger pipe to be 2 sizes larger 
 than small bore.
 8.All piping shall be adequately supported and restrained so as to prevent undue vibration, 
 deflection, stresses or loads on equipment.  Piping shall be supported from below in preference to 
@@ -355,7 +355,7 @@ on the isometric drawings.
 hydraulic test. In case the line fluid is gas or two phase flow, it is acceptable to provide temporary 
 supports for hydraulic test. In case the line will be tested by pneumatic test, the weight of hydraulic 
 test shall not be considered.
-13.Pipe shoes shall be provided on the horizontal lines with heat insulation. For 1-1/2°® and smaller 
+13.Pipe shoes shall be provided on the horizontal lines with heat insulation. For 1-1/2‚Äù and smaller 
 horizontal lines, shoes neednot be provided, instead the bottom half of insulation shall be cut 
 away up to a distance of 300 mm on each side of support.  All bare line will be laid directly on 
 pipeway, pipe sleeper and so onexcept stainless steel bare pipe. Stainless steel plate shall be 
@@ -378,14 +378,14 @@ All piping systems shall be ensured by means of analyzing for most severe condit
 expansion or contraction.  When piping system is analyzed, operating temperature of equipment and piping 
 shall be used.
 Force and moment on mechanical equipment shall not exceed the following conditions.
-1.Vendor°¶s recommended values.
+1.Vendor‚Äôs recommended values.
 2.Individual equipment specification (If specified)
 3.Applicable codes and standards,as modified by the equipment specifications.
 The detail criteria for aboveareto be in accordance withproject specification S-G000-5360-012.
 3.11Relief System Piping
 3.11.1General
 The design and installation of pressure-relieving systems shall be in accordance with API RP 520PART I 
-and II°ßSizing, Selection, and Installation of Pressure-Relieving Devices in Refineries°® and API STD521 °ß
+and II‚ÄúSizing, Selection, and Installation of Pressure-Relieving Devices in Refineries‚Äù and API STD521 ‚Äú
 3.11.2Open System
 In order to protect personnel from hazard and equipment from damage, the location of the atmospheric 
 discharge of flammable and hazardous vapor shall be accurately decided in accordance with the following 
@@ -400,7 +400,7 @@ grade or at open drains to avoid any hazards on walkways or platforms.
 3.11.3Closed System
 1.The outlet line from the relief valve shall be self-draining into the flare header.
 2.The outlet piping from the relief valve shall be connected to the top part of the header at a 45 
-degree angle to the flow direction, but a1-1/2°® NPS or smaller piping may be connected at right 
+degree angle to the flow direction, but a1-1/2‚Äù NPS or smaller piping may be connected at right 
 angles to the flow direction.
 3.12Piping for Instruments
 3.12.1General
@@ -445,7 +445,7 @@ Page 13of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
 4.Control valves shall belocated close to related process equipment for reliability of operation and 
-easy accessible for operator°¶s manipulation. If possible and if it does not affect the reliability of 
+easy accessible for operator‚Äôs manipulation. If possible and if it does not affect the reliability of 
 operation, control valves shall preferably be located at ground level.
 5.All elevated control valves and manifolds shall be located on a platform.
 6.Drains on control valve manifolds as per P&ID requirements.
@@ -461,7 +461,7 @@ Support
 Slide Type Pipe 
 Support
 The drain shall be installed to larger pipe. (When large 
-side of the reducer size is 8°® and over, the drain can be 
+side of the reducer size is 8‚Äù and over, the drain can be 
 installed to the reducer.)
 The reducer shall be installed at a minimum distance from the control 
 valve. (In the case of wafer type, attention shall be given to bolt 
@@ -478,29 +478,29 @@ at high points of piping as per P&ID requirements or the following requirements 
 not specify).
 a.Drain
 i.Alloy, stainless, class 900 rating and higher C.S piping,and all rating of H2 service:NPS 
-3/4°® valve with blind flange.
-ii.Class 600 rating andlower C.S piping except H2 service:NPS 3/4°® valve with threaded 
+3/4‚Äù valve with blind flange.
+ii.Class 600 rating andlower C.S piping except H2 service:NPS 3/4‚Äù valve with threaded 
 plug (or valve with pipe nipple and cap for PWHT line)
 b.Vent
 i.Alloy, stainless, class 900 rating and higher C.S piping and all rating of H2 service:NPS 
-3/4°® valve with blind flange.
-ii.Class 600rating and lower C.S piping except H2 service:NPS 3/4°® valve with threaded 
+3/4‚Äù valve with blind flange.
+ii.Class 600rating and lower C.S piping except H2 service:NPS 3/4‚Äù valve with threaded 
 plug (or valve with pipe nipple and cap for PWHT line)
 Note:
-1.Where run pipe size is NPS 1/2°®, the size of drain or vent valves shall be NPS 1/2°®.
+1.Where run pipe size is NPS 1/2‚Äù, the size of drain or vent valves shall be NPS 1/2‚Äù.
 2.Applied valve type shall conform to P&ID and/or material specification requirements.
 3.For long runs of OSBL lines (including interconnecting) following minimum drain and vent 
 sizes shall be used on piping.
 Nominal Run Drain and Case iCase ii
 Pipe Sizevent size
-?°®?°®Vlv + bld flgVlv +plug
-?°® to 2°®?°®Vlv + bld flgVlv + plug
-3°® to 12°®1°®Vlv + bld flgVlv + plug
-14°® to 24°®1?°ßVlv + bld flgVlv + plug
-Above 24°®2°®Vlv + bld flgVlv + bld flg
+¬Ω‚Äù¬Ω‚ÄùVlv + bld flgVlv +plug
+¬æ‚Äù to 2‚Äù¬æ‚ÄùVlv + bld flgVlv + plug
+3‚Äù to 12‚Äù1‚ÄùVlv + bld flgVlv + plug
+14‚Äù to 24‚Äù1¬Ω‚ÄúVlv + bld flgVlv + plug
+Above 24‚Äù2‚ÄùVlv + bld flgVlv + bld flg
 2.Equipment drains shall be terminated up to nearest drain funnels when it is specified in
 the P & I Diagram.
-3.Hydrostatic test vents and drains shall be provided at all high and low points on lines 1?°® and 
+3.Hydrostatic test vents and drains shall be provided at all high and low points on lines 1¬Ω‚Äù and 
 larger. When plugs or screwed caps are provided, these shall be seal welded after testing. No test 
 vents or drains are required in air andnitrogen lines.
 4.The outlet line to a pressurized drain system shall be self-draining.
@@ -511,8 +511,8 @@ General Specification for PipingS-G000-5360-0080
 1.Utility station shall be provided at 30 m intervals around the vessels and ground.
 2.Fluids:Water, air and steam (nitrogen , if necessary)
 All items shall be terminated with hose connections
-3.Size:     Water, air, nitrogenNPS 3/4°®
-SteamNPS 1°®
+3.Size:     Water, air, nitrogenNPS 3/4‚Äù
+SteamNPS 1‚Äù
 4.Hose-connections shall be installed in the order of, nitrogen (if required), air, water and steam from 
 left to right, facing to a utility station.
 5.Utility stations on elevated platforms (for equipment structure, vessels, and towers) shall be 
@@ -534,9 +534,9 @@ In the event ofa flange leak in hydrogen service, steam shall be used to control
 via permanent systems(steam rings) or none permanently (by steam lances).
 Steam rings will be installed at all flanges:
 -Inaccessible from grade and;
--With adiameter equal to or larger than 6°®of process streams that have:
-ÑhA partial hydrogen pressure higher than 7.0 bara and;
-ÑhA temperature higher than 200 deg C or, in case of a combined hydrogen and hydrocarbon 
+-With adiameter equal to or larger than 6‚Äùof process streams that have:
+ÔÇ∑A partial hydrogen pressure higher than 7.0 bara and;
+ÔÇ∑A temperature higher than 200 deg C or, in case of a combined hydrogen and hydrocarbon 
 stream, atemperature higher than auto-ignition temperature of the hydrocarbons (the lowest 
 temperature isleading).
 Accessible from grade means that flanges are at a maximum height of 1.5 meters above grade.
@@ -575,8 +575,8 @@ P&I Diagram.
 3.20Utility Piping
 10.All branch piping from utility headers (steam, steam condensate, water, air, nitrogen, fuel gas, fuel 
 oil, etc.) shall be taken from the top of the header to prevent plugging, however, water branch 
-piping of 3°® NPS and larger may be taken from the bottom of the header.
-11.On branch piping with linesize 1-1/2°®NPS and smallerfrom utility headers an isolation valve shall 
+piping of 3‚Äù NPS and larger may be taken from the bottom of the header.
+11.On branch piping with linesize 1-1/2‚ÄùNPS and smallerfrom utility headers an isolation valve shall 
 be provided.However, in the case users are only utility stations, no need to provide isolation valve 
 on each branch line, if main header has isolation valve. Refer to S-G000-5225-101 Para. 2.2.2.
 Where block valves are used in branch lines at top of headers, they shall preferably be located in 
@@ -638,26 +638,26 @@ Hole Diameter
 Nominal
 Pipe Size
 Un-insulated (mm)Insulated
-1/2°®130
-3/4°®130
-1°®130
-1 1/2°®150
-2°®160
-3°®190
+1/2‚Äù130
+3/4‚Äù130
+1‚Äù130
+1 1/2‚Äù150
+2‚Äù160
+3‚Äù190
 When the piping is to be insulated, fractions 
 of the insulation thickness shall be rounded 
-4°®210
+4‚Äù210
 off upwards in 10 mm and added to the 
 pipehole diameters.
-6°®270
-8°®320
-10°®370
-12°®420
-14°®460
-16°®510
-18°®560
-20°®610
-24°®710
+6‚Äù270
+8‚Äù320
+10‚Äù370
+12‚Äù420
+14‚Äù460
+16‚Äù510
+18‚Äù560
+20‚Äù610
+24‚Äù710
 3.24Pipe through Dike
 1.Sleeve pipe shall be provided for the piping through dike.
 2.No cathodic protection shall be applied to the carrier pipe and sleeve through dike.
@@ -731,9 +731,9 @@ internals without disturbing machine installation alignment.
 d.The design and location of permanent strainers shall be such as to permit cleaning without 
 removing the strainer body. Pump strainers shall be provided with drain valves.
 e.Type of strainers used in pump suction piping shall be as follows:
-NPS 2°® and smaller size-Y type(Flanged, Socket weld or thread connection in 
+NPS 2‚Äù and smaller size-Y type(Flanged, Socket weld or thread connection in 
 accordance with applicable piping class)
-NPS 3°® and larger size-T type (Butt weld connection.  Flanged connection only for
+NPS 3‚Äù and larger size-T type (Butt weld connection.  Flanged connection only for
 galvanized piping class)
 Generally the Bathtub style is used for T type strainer.  The type of strainer will be identified in 
 the specification or the requisition.
@@ -757,7 +757,7 @@ i.All supports shall be of the adjustable typein case the pumps require centerin
 3.Compressor
 a.Piping to and from compressors shall be designed to keep vibration to a minimum. Avoid 
 overhanging weight of pipe. Gussets are to be provided as per relevant piping standard to all 
-connections 1°® and smaller where required
+connections 1‚Äù and smaller where required
 b.The piping around compressor shall be arranged to prevent excessive force and moment 
 effecting on to the nozzle.
 c.Centrifugal compressor suction piping shall be designed to ensure that the configuration of the 
@@ -834,7 +834,7 @@ settlement, or piping displacement caused by nozzle rotation due to tank shell d
 be capable of absorbing any possible movement of piping due to thermal expansion and 
 contraction.
 4.Proper sealing shall be provided to the piping passing through dikes.(Refer to Para. 3.24.)
-5.Piping inside tank dikes shall not obstruct to heavy equipment°¶s maneuver.
+5.Piping inside tank dikes shall not obstruct to heavy equipment‚Äôs maneuver.
 Page 28of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
@@ -849,7 +849,7 @@ elevation of the pipe bottom.
 5.Crossing main pipe racks shall be at different levels to facilitate changing direction and crossing 
 pipelines.
 6.Piping expansion loops in pipe racks and tracks shall be raised in elevation to stay clear of 
-adjacent piping, with the exception of flare headers and °ßno pocket°® lines.
+adjacent piping, with the exception of flare headers and ‚Äúno pocket‚Äù lines.
 7.Spare/future capacity space as per Specification of plant layout and spacing ch.6.4
 4.7Jacketed Piping
 4.7.1Jacketing Methods
@@ -871,15 +871,15 @@ Page 29of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
 4.8Heat Tracing forPiping
-Heat tracingshall be designed in accordance with Specification S-G000-5388-001°ßSpecification for 
-Electrical Heat Tracing System°®.
+Heat tracingshall be designed in accordance with Specification S-G000-5388-001‚ÄúSpecification for 
+Electrical Heat Tracing System‚Äù.
 Page 30of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
 5.0PIPING DRAWING
 5.1Plan and Isometric Drawing
-Orthographic drawing which shows piping general arrangement will be called °ßPlan Drawing°®. Isometric 
-drawing which shows one line (all piping 1/2°® larger) will be called °ßIsometric Drawing°®. Isometrics shall 
+Orthographic drawing which shows piping general arrangement will be called ‚ÄúPlan Drawing‚Äù. Isometric 
+drawing which shows one line (all piping 1/2‚Äù larger) will be called ‚ÄúIsometric Drawing‚Äù. Isometrics shall 
 include the Bill of Material.
 5.2Preparation of Plan and Isometric Drawing
 Piping plan and isometric drawing shall be prepared by extracting them from the 3D model utilizing 3D soft 
@@ -904,11 +904,11 @@ a.Instrument AirPneumatic
 2.Process lines insulated or lined on their insidePneumatic
 3.Process lines for which hydrostatic testing is not recommended
 due to technical reasons, such as those for cold service use, etc.Pneumatic
-4.Large diameter tower overhead lines (18°®and larger) shall be pre-assembled at grade level and 
-hydrotested prior to erection and last welds shall be handled as socalled °•golden welds°¶which RT 
+4.Large diameter tower overhead lines (18‚Äùand larger) shall be pre-assembled at grade level and 
+hydrotested prior to erection and last welds shall be handled as socalled ‚Äògolden welds‚Äôwhich RT 
 for butt weld and PT for socket weld will be applied.
 5.Lines of FRP / GRPshall be hydrotested at 1.5 times operating pressure.
-Note:For °ßPneumatic°®, ASME B31.3 Para.345.5 shall be applied.
+Note:For ‚ÄúPneumatic‚Äù, ASME B31.3 Para.345.5 shall be applied.
 6.2Application of Pressure Testing
 After completion of the piping installation and NDE work, the field fabricatedpiping shall be subjected to 
 pressure test, except for the following cases:
@@ -941,52 +941,52 @@ or above platforms)
 accessWithWithladderor Stand
 stairwayladder
 [Valve]
-1.Valves YESÑR
+1.Valves YESÔÇ°
 (3)
-ÑdNPS 3
+ÔÇ≥NPS 3
 requiring (4)
-ÑTNPS 2YESÑR
+ÔÇ£NPS 2YESÔÇ°
 frequent
 manipulation
-2.Valves not EquipmentYESÑR
+2.Valves not EquipmentYESÔÇ°
 requiring drains/vents
 frequent 
-LineÑR
+LineÔÇ°
 (1)(7)
 manipulation
 drains/vents
-For spared equipmentYESÑR
+For spared equipmentYESÔÇ°
 (3)(4)
-OthersYESÑR
+OthersYESÔÇ°
 (3)
-ÑR
+ÔÇ°
 (4)
-ÑR
+ÔÇ°
 (1)
 3.Valves not requiring NOConstruction and non-
 manipulation including utility, flare and routine maintenance 
 other header root valves for branchespurpose only eg. Hot tap 
 valves
-4.Valves requiring quick operation during YESÑR
+4.Valves requiring quick operation during YESÔÇ°
 (2)
 Valves so specified on P 
 plantoperation& ID
-5.Remote operation valvesYESÑREmergency shut-down 
+5.Remote operation valvesYESÔÇ°Emergency shut-down 
 valve, etc.
-6.Battery limit valve stationYESÑR
+6.Battery limit valve stationYESÔÇ°
 (3)
-7.Block valves for instrument connectionYESÑRÑR
+7.Block valves for instrument connectionYESÔÇ°ÔÇ°
 (1)(7)(8)
-8.Isolation valves of steam traps for trap YESÑR
+8.Isolation valves of steam traps for trap YESÔÇ°
 maintenance
 [Other Piping Element]
-1.Special piping components requiring YESÑRÑR
+1.Special piping components requiring YESÔÇ°ÔÇ°
 (1)
 maintenance and replacement
 2.Special piping components not requiring NO
 maintenance
-3.BlanksOperationYESÑR
-MaintenanceYESÑRÑR
+3.BlanksOperationYESÔÇ°
+MaintenanceYESÔÇ°ÔÇ°
 (1)(7)
 Temporary access with 
 scaffolding also 
@@ -995,29 +995,29 @@ acceptable
 [Instruments]
 1.Pressuredetecting elementNOConnection Point
 Instruments
-local gaugeYESÑR
+local gaugeYESÔÇ°
 2.Temperaturedetecting elementNOThermowell
 Instruments
-local gaugeYESÑR
-3.Leveldetecting elementYESÑRFloat in displacer, etc.
+local gaugeYESÔÇ°
+3.Leveldetecting elementYESÔÇ°Float in displacer, etc.
 Instruments
-local gaugeYESÑR
+local gaugeYESÔÇ°
 Page 34of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
-4.Flowdetecting elementYESÑR
+4.Flowdetecting elementYESÔÇ°
 (1)(8)
 (6)
 Instruments
 local gaugeYES
-ÑR
-5.Transmitterswith local indicationYESÑRFor local indication which 
-without local indicationYESÑRÑR
+ÔÇ°
+5.Transmitterswith local indicationYESÔÇ°For local indication which 
+without local indicationYESÔÇ°ÔÇ°
 (1)
 requires daily operation
-6.Safety valvesYESÑRÑR
+6.Safety valvesYESÔÇ°ÔÇ°
 (1)
-7.Control valvesYESÑR
+7.Control valvesYESÔÇ°
 Page 35of 39Liwa Plastics Project
 Document Title:Document No.Rev:
 General Specification for PipingS-G000-5360-0080
@@ -1037,34 +1037,34 @@ ladderStand
 stairwayladder
 [Equipment]
 To top platform, if 
-1.Towers/VesselsYESÑR
+1.Towers/VesselsYESÔÇ°
 necessary
-2.    ReactorsYESÑRTo top platform
-3.Compressors/TurbinesYESÑRFor elevated objects
-4.Air CoolersYESÑRÑR
+2.    ReactorsYESÔÇ°To top platform
+3.Compressors/TurbinesYESÔÇ°For elevated objects
+4.Air CoolersYESÔÇ°ÔÇ°
 (11)
 To header box and motors
-5.Cooling towersYESÑRTo motors on top
+5.Cooling towersYESÔÇ°To motors on top
 To burners and peeping 
-6.HeatersYESÑR
+6.HeatersYESÔÇ°
 holes
-7.Elevated stacksYESÑRTo igniter, if necessary
-8.Manholes on equipmentYESÑR
+7.Elevated stacksYESÔÇ°To igniter, if necessary
+8.Manholes on equipmentYESÔÇ°
 (9)
-ÑR
+ÔÇ°
 (9)
-9.Handholes on equipmentYESÑR
+9.Handholes on equipmentYESÔÇ°
 (9)
-ÑR
+ÔÇ°
 (9)
-10.Equipment nozzlesYESÑR
+10.Equipment nozzlesYESÔÇ°
 (9)
-ÑR
+ÔÇ°
 (9)
 [Operation Devices]
-1.Local sampling pointsYESÑR
+1.Local sampling pointsYESÔÇ°
 (5)
-2.Elevated hydrants/monitorsYESÑR
+2.Elevated hydrants/monitorsYESÔÇ°
 Notes:
 1.Movable ladders and stands (platforms) can be applied for the objects whose operation height is 
 less than or equal to 4.5 m from ground or equipment structure platforms.
@@ -1097,11 +1097,11 @@ Para. 3.
 1.General Application
 Minimum distances to be maintained for locating the orifice flanges, shall be as shown in the 
 following figure:
-ORIFICE FL°¶G
+ORIFICE FL‚ÄôG
 MIN.
 MIN.MIN.
 PIPE RACK
-ORIFICE FL°¶G
+ORIFICE FL‚ÄôG
 MIN.
 If orifice flanges are located higher than 4.5 m elevation from grade, additional platform shall be
 provided with the following require
@@ -1122,9 +1122,9 @@ General Specification for PipingS-G000-5360-0080
 2.Around Unit Battery Limit
 Regardless of installation level (elevation) of orifice flanges, additional platform is required 
 underneath of orifice flanges.
-ORIFICE FL°¶G
+ORIFICE FL‚ÄôG
 MIN. 200MIN. 200
-ORIFICE FL°¶GORIFICE FL°¶G
+ORIFICE FL‚ÄôGORIFICE FL‚ÄôG
 PIPE RACK
 500
 (FOR INSTALLATION
@@ -1145,8 +1145,8 @@ s of orifice flanges are acceptable without platform access regardless of the ab
 1.Pipe Rack Piping (applying to liquid and steam service)
 If orifice flanges are located 4.5 m and lower elevation from grade, additional platform is not 
 required (access by temporary ladder).
-ORIFICE FL°¶G
-ORIFICE FL°¶G
+ORIFICE FL‚ÄôG
+ORIFICE FL‚ÄôG
 MIN.
 PIPE RACK
 4.5 m

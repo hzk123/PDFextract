@@ -34,36 +34,11 @@ import com.google.common.util.concurrent.FutureCallback;
 
 public class Main
 {
-	public static void main(String args[])
+	public static void main(String args[]) throws IOException
     {
 		String pdffilepath = "C://22.pdf";
 		String outputpath = "out.txt";
-		PDFextract ex = null;
-		try
-		{
-			ex = new PDFextract(pdffilepath,outputpath);
-		} catch (IOException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		try
-		{
-			ex.extract_console();
-		} catch (InvalidPasswordException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e)
-		{
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-
-		// ex.extract_txt();
-
-		// ex.extract_console();
+		getConsole test = new getConsole(pdffilepath,outputpath);
     }
   
  

@@ -57,11 +57,8 @@ public class getConsole extends PDFTextStripper
      * @throws IOException If there is an error loading the properties.
      */
 
-	static int cnt = 0;
-	static List<List<Text>> texts = new ArrayList< List<Text>>() ;
-	static List<Text> tmp = new ArrayList<Text>();
-	static List<Text> row = new ArrayList<Text>();
-	static int Now_page = 0;
+    static List<Text> tmp = new ArrayList<Text>();
+
     public getConsole() throws IOException
     {
     }
@@ -69,84 +66,94 @@ public class getConsole extends PDFTextStripper
      * This will print the documents data.
      * @throws IOException If there is an error parsing the document.
      */
-    
-    static String PDFFilePath = "C:\\22.pdf";
-    static String OutputFilepath = "out.data";
-    public static void main( String[] args ) throws IOException
-    { 
+
+    String PDFFilePath;
+    String OutputFilepath ;
+
+
+    public getConsole(String PDffilepath,String OutputFilepath) throws IOException
+    {
+        this.PDFFilePath = PDffilepath;
+        this.OutputFilepath = OutputFilepath;
+        process();
+    }
+
+    void process() throws IOException
+    {
+        List<List<Text>> texts = new ArrayList< List<Text>>();
+        PDDocument document = null;
+        try
         {
-            PDDocument document = null; 
-            try
+            BasicConfigurator.configure();
+            File file = new File(PDFFilePath);
+            texts.clear();
+            document = PDDocument.load( file );
+            String res = "";
+            for (int  i = 0 ; i < document.getNumberOfPages() ; i++)
             {
-                BasicConfigurator.configure();
-            	File file = new File(PDFFilePath);
-            	texts.clear();
-            	document = PDDocument.load( file );
-            	String res = "";
-            	for (int  i = 0 ; i < document.getNumberOfPages() ; i++)
+                tmp.clear();
+                PDFTextStripper stripper = new getConsole();
+                stripper.setSortByPosition( true );
+                stripper.setStartPage( i );
+                stripper.setEndPage( i );
+                Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
+                stripper.writeText(document, dummy);
+                if (tmp.isEmpty())
+                    continue;
+                texts.add(tmp);
+                double pre = tmp.get(0).Y;
+                for (Text now : tmp)
                 {
-            		tmp.clear();
-            		PDFTextStripper stripper = new getConsole();
-            		stripper.setSortByPosition( true );
-            		stripper.setStartPage( i );
-            		stripper.setEndPage( i );
-            		Writer dummy = new OutputStreamWriter(new ByteArrayOutputStream());
-            		stripper.writeText(document, dummy);  
-            		if (tmp.isEmpty()) continue;
-            		texts.add(tmp);
-            		double pre = tmp.get(0).Y;
-            		for (Text now : tmp)	
-            			{
-            			 	if ( Math.abs(now.Y - pre) > 1.) 
-            			 		res += '\n';
-            			 	res += now.unicode;
-            			 	pre = now.Y;
-            			}
+                    if ( Math.abs(now.Y - pre) > 1.)
+                        res += '\n';
+                    res += now.unicode;
+                    pre = now.Y;
                 }
-            	OutputStream os = new FileOutputStream(OutputFilepath);
-            	System.out.println( res );
-            	byte[] bt = res.getBytes();
-            	os.write(bt);
             }
-            finally
+            OutputStream os = new FileOutputStream(OutputFilepath);
+            System.out.println( res );
+            byte[] bt = res.getBytes();
+            os.write(bt);
+        }
+        finally
+        {
+            if( document != null )
             {
-                if( document != null )
-                {
-                    document.close();
-                }
+                document.close();
             }
         }
+
     }
-    
-  
-    
+
+
+
     /**
      * Override the default functionality of PDFTextStripper.
      */
     @Override
-    
+
     protected void writeString(String string, List<TextPosition> textPositions) throws IOException
     {
         for (TextPosition text : textPositions)
         {
-            	/* only for debug 
-            	 * System.out.println( "String[" + text.getXDirAdj() + "," +
-                    text.getYDirAdj() + " fs=" + text.getFontSize() + " xscale=" +
-                    text.getXScale() + " height=" + text.getHeightDir() + " space=" +
-                    text.getWidthOfSpace() + " width=" +
-                    text.getWidthDirAdj() + "]" + text.getUnicode() ); */
-           {
-        	   		tmp.add(new Text(text.getXDirAdj(), text.getYDirAdj(), text.getFontSize(), 
-            		text.getXScale(), text.getHeightDir() ,  text.getWidthOfSpace(),
-            		text.getWidthDirAdj(),text.getUnicode())); 
-           }
+            /* only for debug
+             * System.out.println( "String[" + text.getXDirAdj() + "," +
+                text.getYDirAdj() + " fs=" + text.getFontSize() + " xscale=" +
+                text.getXScale() + " height=" + text.getHeightDir() + " space=" +
+                text.getWidthOfSpace() + " width=" +
+                text.getWidthDirAdj() + "]" + text.getUnicode() ); */
+            {
+                tmp.add(new Text(text.getXDirAdj(), text.getYDirAdj(), text.getFontSize(),
+                                 text.getXScale(), text.getHeightDir(),  text.getWidthOfSpace(),
+                                 text.getWidthDirAdj(),text.getUnicode()));
+            }
         }
     }
-    
+
 
     public class TextPositionComparator implements Comparator<TextPosition>
     {
-    	@Override
+        @Override
         public int compare(TextPosition pos1, TextPosition pos2)
         {
             int cmp1 = Float.compare(pos1.getDir(), pos2.getDir());
@@ -154,10 +161,10 @@ public class getConsole extends PDFTextStripper
             {
                 return cmp1;
             }
-            
+
             float x1 = pos1.getXDirAdj();
             float x2 = pos2.getXDirAdj();
-            
+
             float pos1YBottom = pos1.getYDirAdj();
             float pos2YBottom = pos2.getYDirAdj();
 
@@ -165,10 +172,10 @@ public class getConsole extends PDFTextStripper
             float pos2YTop = pos2YBottom - pos2.getHeightDir();
 
             float yDifference = Math.abs(pos1YBottom - pos2YBottom);
-            
+
             if (yDifference < 1. ||
-                pos2YBottom >= pos1YTop && pos2YBottom <= pos1YBottom ||
-                pos1YBottom >= pos2YTop && pos1YBottom <= pos2YBottom)
+                    pos2YBottom >= pos1YTop && pos2YBottom <= pos1YBottom ||
+                    pos1YBottom >= pos2YTop && pos1YBottom <= pos2YBottom)
             {
                 return Float.compare(x1, x2);
             }
