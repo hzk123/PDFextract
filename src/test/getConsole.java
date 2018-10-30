@@ -88,7 +88,7 @@ public class getConsole extends PDFTextStripper
             File file = new File(PDFFilePath);
             texts.clear();
             document = PDDocument.load( file );
-            String res = "";
+            String res = null;
             for (int  i = 0 ; i < document.getNumberOfPages() ; i++)
             {
                 tmp.clear();
@@ -102,13 +102,19 @@ public class getConsole extends PDFTextStripper
                     continue;
                 texts.add(tmp);
                 double pre = tmp.get(0).Y;
+// 				THIS IS FOR WINDOWS TXT
+
                 for (Text now : tmp)
                 {
-                    if ( Math.abs(now.Y - pre) > 1.)
-                        res += '\n';
-                    res += now.unicode;
-                    pre = now.Y;
+                	
+                	res += now.unicode;
+                	pre = now.Y;
                 }
+                
+//                for (Text now : tmp)
+//                {
+//                    res += now.unicode;                  
+//                }
             }
             OutputStream os = new FileOutputStream(OutputFilepath);
             System.out.println( res );
