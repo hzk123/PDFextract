@@ -71,7 +71,7 @@ public class getConsole extends PDFTextStripper
      */
     
     static String PDFFilePath = "C:\\22.pdf";
-    static String OutputFilepath = "out";
+    static String OutputFilepath = "out.data";
     public static void main( String[] args ) throws IOException
     { 
         {
