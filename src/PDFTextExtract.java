@@ -29,6 +29,7 @@ import java.util.List;
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
+import com.google.common.base.FinalizableSoftReference;
 
 public class PDFTextExtract extends PDFTextStripper {
 
@@ -86,13 +87,17 @@ public class PDFTextExtract extends PDFTextStripper {
 				// Skip if nothing converted.
 				if (_tmp.isEmpty())
 					continue;
-
+				
+				double prey = _tmp.get(0).Y;
 				// Concate result into string.
 				for (Text now : _tmp) {
+					if ( Math.abs(now.Y - prey) > 1.)
+						res += "\n";
 					res += now.unicode;
+					prey = now.Y;
 				}
 			}
-
+			System.out.println(res);
 			// Write result to file.
 			os = new FileOutputStream(OutputFilepath);
 			os.write(res.getBytes());
